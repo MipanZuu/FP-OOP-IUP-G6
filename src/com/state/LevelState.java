@@ -236,7 +236,7 @@ public class LevelState extends State {
 		g2d.drawString(String.valueOf(score), 138, 30);
 		
 		g2d.setColor(Color.BLACK);
-		Font notifFont = new Font("Chalkboard", Font.PLAIN, 15);
+		Font notifFont = new Font("Chalkboard", Font.PLAIN, 20);
 		g2d.setFont(notifFont);
 		FontMetrics fontMetrics = g2d.getFontMetrics(notifFont);
 		try {
